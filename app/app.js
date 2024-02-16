@@ -18,3 +18,66 @@ document.addEventListener("DOMContentLoaded", function(){
   let answer = "Yes I am!";
   document.getElementById("javavar").innerHTML = pi + "<br>" + person + "<br>" +  answer;
 });
+
+document.addEventListener("DOMContentLoaded", function(){
+  let carName = "Volvo";
+  document.getElementById("javavar1").innerHTML= "My car is a "+ carName;
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  let person = 'John Doe', carName = "Volvo", price = 200;
+  document.getElementById("javavar2").innerHTML = price;
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  let person = "John Doe",
+  carName = "Volvo",
+  price = 200;
+  document.getElementById("javavar3").innerHTML = price;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let carName;
+  document.getElementById("javavar4").innerHTML = carName;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  var carName = "Volvo";
+  var carName;
+  document.getElementById("javavar5").innerHTML = carName;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5 + 2 + 3;
+  document.getElementById("javavar6").innerHTML = x;
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = "John" + " " + "Doe";
+  document.getElementById("javavar7").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = "5" + 2 + 3;
+  document.getElementById("javavar8").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 2 + 3 + "5";
+  document.getElementById("javavar9").innerHTML = x;
+});
+
+
+document.addEventListener("DOMContentLoaded", function(){
+  let $$$ = 2;
+  let $myMoney = 5;
+  document.getElementById("javavar10").innerHTML = $myMoney - $$$;
+});
+
+
+document.addEventListener("DOMContentLoaded", function(){
+  let $$$ = 2;
+  let $myMoney = 5;
+  document.getElementById("javavar11").innerHTML = $myMoney - $$$;
+});
+
