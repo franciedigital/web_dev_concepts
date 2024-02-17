@@ -81,3 +81,24 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById("javavar11").innerHTML = $myMoney - $$$;
 });
 
+document.addEventListener("DOMContentLoaded", function(){
+  var x = 100
+  //Here x is 10
+  {
+    var x = 2;
+  }
+  //Here x is 2
+  document.getElementById("javarede").innerHTML = x;
+  //Here x is 2
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 10;
+  //Here x is 10
+  {
+    let x = 2;
+    //Here x is 2
+  }
+  document.getElementById("javarede1").innerHTML = x;
+  // Here x is 10
+})
