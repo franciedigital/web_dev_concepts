@@ -102,3 +102,43 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById("javarede1").innerHTML = x;
   // Here x is 10
 })
+
+document.addEventListener("DOMContentLoaded", function(){
+  var x = 2;
+  //Now x is 2
+
+  var x = 3;
+  //Now x is 3
+  document.getElementById("javarede2").innerHTML = x;
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 2;
+  {
+    let x = 3;
+  }
+
+  {
+    let x = 4;
+  }
+  document.getElementById("javarede3").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  carName = "Volvo";
+  document.getElementById("javarede4").innerHTML = carName;
+  var carName;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  try {
+    carName = "Saab";
+    let carName = "Volvo";
+  }
+
+  catch(err) {
+    document.getElementById("javarede5").innerHTML = err;
+  }
+})
+
+
