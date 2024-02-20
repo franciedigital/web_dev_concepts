@@ -141,4 +141,14 @@ document.addEventListener("DOMContentLoaded", function(){
   }
 })
 
+document.addEventListener("DOMContentLoaded", function(){
+  try {
+    const p1 = 3.1415;
+    p1 = 3.14;
+  }
+  catch (err) {
+    document.getElementById("javaconst1").innerHTML = err;
+  }
+})
+
 
