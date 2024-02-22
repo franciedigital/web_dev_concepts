@@ -149,6 +149,83 @@ document.addEventListener("DOMContentLoaded", function(){
   catch (err) {
     document.getElementById("javaconst1").innerHTML = err;
   }
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  //Create an Array
+  const cars = ["Saab", "Volvo", "BNW"];
+
+  //change an element:
+  cars[0] = 'Toyota';
+
+  //Add an element:
+  cars.push("Audi");
+
+  // Display the array
+  document.getElementById("javaconst2").innerHTML = cars;
 })
+
+document.addEventListener("DOMContentLoaded", function(){
+  try {
+    const cars = ['Saab', 'Volvo', 'Audi'];
+    cars = ['Toyota', 'Volvo', 'Audi'];
+  }
+
+  catch (err) {
+    document.getElementById('javaconst3').innerHTML = err;
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  //Create an object:
+  const car = {type:'Fiat', model:'500', color:'white'};
+
+  //Change a property:
+  car.color = 'red'
+
+  //Add a property
+  car.owner = 'Johnson'
+  //Display the property:
+  document.getElementById('javaconst4').innerHTML = 'Car owner is ' +  car.owner;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  try {
+    const car = {type:"Fiat", mode:'500', color:'white'};
+    car = {type:'Volvo', model:'EX60', color:'red'};
+  }
+  catch(err) {
+    document.getElementById("javaconst5").innerHTML = err;
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  const x = 10;
+  //Here x is 10
+  {
+    const x = 2;
+    //Here x is 2
+  }
+  //Here x is 10
+  document.getElementById("javaconst6").innerHTML = "x is " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  carName = "Volvo";
+  document.getElementById("javaconst7").innerHTML = carName;
+  var carName;
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  try {
+    alert(carName);
+    const carName = "Volvo"
+  }
+  catch (err) {
+    document.getElementById("javaconst8").innerHTML = err;
+  }
+})
+
+
 
 
