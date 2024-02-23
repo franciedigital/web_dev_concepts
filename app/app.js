@@ -224,7 +224,23 @@ document.addEventListener("DOMContentLoaded", function(){
   catch (err) {
     document.getElementById("javaconst8").innerHTML = err;
   }
-})
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 10;
+  document.getElementById("javaopera").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  //Assign the value of 5 to x
+  let x = 5;
+  //Assign the value of 2 to y
+  let y = 2;
+  //Assign the value x + y to z
+  let z = x + y;
+  //Didplay z
+  document.getElementById("javaopera1").innerHTML = "The sum of x + y is: " + z;
+});
 
 
 
