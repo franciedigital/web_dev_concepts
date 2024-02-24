@@ -243,5 +243,38 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x + y;
+  document.getElementById("javaopera2").innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x * y;
+  document.getElementById("javaopera3").innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let a = 3;
+  let x = (100 + 50) * a;
+  document.getElementById("javaopera4").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  var x = 10;
+  x += 5;
+  document.getElementById("javaopera5").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text1 = "A";
+  let text2 = "B";
+  let result = text1 < text2;
+  document.getElementById("javaopera6").innerHTML = "Is A less than B? : " + result;
+})
+
 
 
