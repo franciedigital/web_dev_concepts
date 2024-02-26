@@ -274,7 +274,34 @@ document.addEventListener("DOMContentLoaded", function(){
   let text2 = "B";
   let result = text1 < text2;
   document.getElementById("javaopera6").innerHTML = "Is A less than B? : " + result;
-})
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text1 = "20";
+  let text2 = "5";
+  let result = text1 < text2;
+  document.getElementById("javaopera7").innerHTML = "Is 20 less than 5? " + result;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text1 = "John";
+  let text2 = "Doe";
+  let text3 = text1 + " " + text2;
+  document.getElementById("javaopera8").innerHTML = text3;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text1 = "What a very ";
+  text1 += "nice day";
+  document.getElementById("javaopera9").innerHTML = text1;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5 + 5;
+  let y = "5" + 5;
+  let z = "hello" + 5;
+  document.getElementById("javaopera10").innerHTML = x + "<br>" + y + "<br>" + z;
+});
 
 
 
