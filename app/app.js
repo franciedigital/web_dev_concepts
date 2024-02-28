@@ -303,5 +303,23 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById("javaopera10").innerHTML = x + "<br>" + y + "<br>" + z;
 });
 
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 100 + 50;
+  document.getElementById("javaarith").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let a = 100;
+  let b = 50;
+  let x = a + b;
+  document.getElementById("javaarith1").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let a = 3;
+  let x = (100 + 50) * a;
+  document.getElementById("javaarith2").innerHTML = x;
+})
+
 
 
