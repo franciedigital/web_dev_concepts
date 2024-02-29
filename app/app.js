@@ -319,7 +319,94 @@ document.addEventListener("DOMContentLoaded", function() {
   let a = 3;
   let x = (100 + 50) * a;
   document.getElementById("javaarith2").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x + y;
+  document.getElementById("javaarith3").innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x - y;
+  document.getElementById( "javaarith4" ).innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x * y;
+  document.getElementById("javaarith5").innerHTML =  z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x/y;
+  document.getElementById("javaarith6").innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 2;
+  let z = x % y;
+  document.getElementById("javaarith7").innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 5;
+  x++;
+  let z = x;
+  document.getElementById("javaarith8").innerHTML = z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  x--;
+  let z = x;
+  document.getElementById("javaarith9").innerHTML = z;
+});
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 5;
+  document.getElementById("javaarith10").innerHTML = x ** 3;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  document.getElementById("javaarith11").innerHTML = Math.pow(x,2);
+});
+document.getElementById("javaarith12").innerHTML = 100 + 50 * 3;
+
+
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 10;
+  document.getElementById("javaassign").innerHTML = "The value of x is : " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let y = 50;
+  let x = 10 + y;
+  document.getElementById("javaassign1").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 10;
+  x += 5;
+  document.getElementById("javaassign2").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let text = "Hello ";
+  text += "World";
+  document.getElementById("javaassign3").innerHTML = text;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 10;
+  x -= 5;
+  document.getElementById("javaassign4").innerHTML = "The Value of x is " + x;
 })
-
-
-
