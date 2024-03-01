@@ -409,4 +409,70 @@ document.addEventListener("DOMContentLoaded", function() {
   let x = 10;
   x -= 5;
   document.getElementById("javaassign4").innerHTML = "The Value of x is " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 10;
+  x *= 5;
+  
+});
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 10;
+  x **= 5;
+  document.getElementById("javaassign6").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 10;
+  x /= 5;
+  document.getElementById('javaassign7').innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 10;
+  x %= 5;
+  document.getElementById("javaassign8").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = -100;
+  x <<= 5;
+  document.getElementById("javaassign9").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = -100;
+  x >>= 5;
+  document.getElementById("javaassign10").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = -100;
+  x >>>= 5;
+  document.getElementById("javaassign11").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 100;
+  x &= 5;
+  document.getElementById("javaassign12").innerHTML = "Value of x is: " +x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 100;
+  x |= 5;
+  document.getElementById("javaassign13").innerHTML = "Value of x is: " + x;
+});
+document.addEventListener("DOMContentLoaded", function() {
+  let x = 100;
+  x &&= 5;
+  document.getElementById("javaassign14").innerHTML = "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = undefined;
+  x ||= 5;
+  document.getElementById("javaassign15").innerHTML =  "Value of x is: " + x;
 })
+
+
