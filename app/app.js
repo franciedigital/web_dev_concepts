@@ -473,6 +473,41 @@ document.addEventListener("DOMContentLoaded", function() {
   let x = undefined;
   x ||= 5;
   document.getElementById("javaassign15").innerHTML =  "Value of x is: " + x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 16 + "Volvo";
+  document.getElementById("javatypes").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = "Volvo" + 16;
+  document.getElementById("javatypes1").innerHTML = x;
+
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 16 + 4 + "Volvo";
+  document.getElementById("javatypes2").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x = "Volvo" + 16 + 4;
+  document.getElementById("javatypes3").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let x; //Now x is undefined
+  x = 5; //Now x is a number
+  x = "John"; //x is now a string
+  document.getElementById("javatypes4").innerHTML = x;
+
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let carName1 = "Volvo XC6o";
+  let carName2 = 'Volvo XC6o';
+  document.getElementById("javatypes5").innerHTML = carName1 + "<br>" + carName2
 })
 
 
