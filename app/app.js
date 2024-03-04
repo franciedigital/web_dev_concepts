@@ -522,6 +522,48 @@ document.addEventListener("DOMContentLoaded", function(){
   let x2  = 34;
   let x3 = 3.14;
   document.getElementById("javatypes7").innerHTML = x1 + "<br>" + x2 + "<br>" + x3;
+});
+document.addEventListener("DOMContentLoaded", function(){
+  let y = 123e5;
+  let z = 123e-5;
+  document.getElementById("javatypes8").innerHTML = y + "<br>" + z;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = BigInt("123456789012345678901234567890");
+  document.getElementById ("javatypes8").innerHTML = x;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let x = 5;
+  let y = 5;
+  let z = 6;
+  document.getElementById("javatypes10").innerHTML = (x == y) + "<br>" + (x == z);
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  const cars = ["Saab", "Volvo", "BMW"];
+  document.getElementById("javatypes11").innerHTML = cars[0];
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const person = {firstName: "John", lastName: "Doe", age: "50", eyeColor: "blue"};
+  document.getElementById("javatypes12").innerHTML = person.firstName + " is " + person.age + " Years old ";
+});
+
+document.getElementById("javatypes13").innerHTML = 
+typeof "" + "<br>" +
+typeof "John" + "<br>" +
+typeof "John Doe";
+
+document.addEventListener("DOMContentLoaded", function() {
+  let car;
+  document.getElementById("javatypes14").innerHTML = car + "<br>" + typeof car;
+});
+document.addEventListener("DOMContentLoaded", function(){
+  let car = "Volvo";
+  car = undefined;
+  document.getElementById("javatypes15").innerHTML = car + "<br>" + typeof car;
 })
+
 
 
