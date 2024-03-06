@@ -597,4 +597,32 @@ document.addEventListener("DOMContentLoaded", function(){
   }
   let value = toCelsius(77);
   document.getElementById("javafunc2").innerHTML = value;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  function toCelsius(f) {
+    return (5/9) * (f - 32)
+  }
+  let value = toCelsius();
+  document.getElementById("javafunc3").innerHTML = value;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  function toCelsius(f) {
+    return (5/9) * (f -32);
+
+  }
+  let value = toCelsius;
+  document.getElementById("javafunc4").innerHTML = value;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  function toCelsius(f) {
+    return (5/9) * (f - 32);
+
+  }
+  let text = "The temperature is " + toCelsius(77) + " Celsius ."
+  document.getElementById("javafunc6").innerHTML = text;
 })
+
+
