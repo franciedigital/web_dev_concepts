@@ -623,6 +623,37 @@ document.addEventListener("DOMContentLoaded", function(){
   }
   let text = "The temperature is " + toCelsius(77) + " Celsius ."
   document.getElementById("javafunc6").innerHTML = text;
+});
+document.addEventListener("DOMContentLoaded", function(){
+  let text = "Outside: " + typeof carName;
+  document.getElementById("javafunc7").innerHTML = text;
+
+  function myFunction() {
+    let carName = "Volvo";
+    let text = "Inside: " + typeof carName + " " + carName;
+    document.getElementById("javafunc8").innerHTML = text;
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let car = "Fiat";
+  document.getElementById("javaobj").innerHTML = car;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  //Create an object:
+  const car = {type:"Fiat", model:"500", color:"White"};
+  //Display some data from the object:
+  document.getElementById("javaobj1").innerHTML = "The car type is: " + car.type;
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+  //Create an object
+  const car = {type:"Fiat", model:"500", color:"White"};
+
+  //Display some data from the object:
+  document.getElementById()
+
 })
 
 
