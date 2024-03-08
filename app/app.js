@@ -654,6 +654,48 @@ document.addEventListener("DOMContentLoaded", function(){
   //Display some data from the object:
   document.getElementById()
 
-})
+});
+document.addEventListener("DOMContentLoaded", function(){
+  // Create an object:
+  const person = {firstName:"John", lastName:"Doe", age:"50", eyeColor:"blue"};
 
+  //Display some data from the object:
+  document.getElementById("javaobj2").innerHTML = person.firstName + " is " + person.age + " years old. "
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  //
+  const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue",
+  }
+  // Display some data from the object:
+
+  document.getElementById("javaobj3").innerHTML = person.firstName + " is " + person.age + " Years old ";
+
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  // Create an object:
+  const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id:       5566
+  } 
+
+  document.getElementById("javaobj4").innerHTML = person.firstName + " " + person.lastName;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  // Create an object:
+  const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id      : 5566
+  }
+  // Display some data from the object:
+  document.getElementById("javaobj5").innerHTML = person["firstName"] + " " +  person["lastName"];
+})
 
