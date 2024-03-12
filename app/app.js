@@ -697,5 +697,34 @@ document.addEventListener("DOMContentLoaded", function(){
   }
   // Display some data from the object:
   document.getElementById("javaobj5").innerHTML = person["firstName"] + " " +  person["lastName"];
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  //Create an object:
+
+  const person = {
+    firstName : "John",
+    lastName : "Doe",
+    id: 5566,
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  document.getElementById("javaobj6").innerHTML = person.fullName();
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  // Create an object:
+  const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id  :   5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+
+  // Display data from the Object:
+  document.getElementById("javaobj7").innerHTML = person.fullName;
 })
 
