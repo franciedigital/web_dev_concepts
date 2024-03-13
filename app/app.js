@@ -726,5 +726,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
   // Display data from the Object:
   document.getElementById("javaobj7").innerHTML = person.fullName;
+});
+
+document.getElementById("javaeve").addEventListener("click", function(){
+  document.getElementById("javaeve1").innerHTML =  Date();
 })
 
