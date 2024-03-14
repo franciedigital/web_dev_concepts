@@ -730,5 +730,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
 document.getElementById("javaeve").addEventListener("click", function(){
   document.getElementById("javaeve1").innerHTML =  Date();
-})
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("javaeve2").onclick = function() {
+    this.innerHTML = Date();
+  }
+});
 
