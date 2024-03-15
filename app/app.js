@@ -738,3 +738,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+function displayDate() {
+  document.getElementById
+}
+
