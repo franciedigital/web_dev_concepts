@@ -740,5 +740,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function displayDate() {
   document.getElementById
-}
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+  let text = "John Doe";
+  document.getElementById("javastr").innerHTML = text;
+})
 
