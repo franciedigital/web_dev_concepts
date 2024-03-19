@@ -745,5 +745,30 @@ function displayDate() {
 document.addEventListener("DOMContentLoaded", function() {
   let text = "John Doe";
   document.getElementById("javastr").innerHTML = text;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let carName1 = "Volvo XC60"; //Double quotes
+  let carName2 = 'Volvo XC60'; //Single quotes
+
+  document.getElementById("javastr1").innerHTML = carName1 + "<br>" + carName2
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let answer1 = "It's alright";
+  let answer2 = "He is called 'Johnny'";
+  let answer3 = 'He is called "Johnny"';
+  document.getElementById("javastr2").innerHTML = answer1 + "<br>" + answer2 + "<br>" + answer3;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let text = `He's often called "Johnny"`;
+  document.getElementById("javastr3").innerHTML = text;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  document.getElementById("javastr4").innerHTML = text.length;
 })
+
 
