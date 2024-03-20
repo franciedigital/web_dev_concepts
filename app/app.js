@@ -769,6 +769,69 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
   let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   document.getElementById("javastr4").innerHTML = text.length;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text = "We are the so-called \"Vikings\" from the north.";
+  document.getElementById("javastr5").innerHTML = text; 
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text = 'It\'s alright.';
+  document.getElementById("javastr6").innerHTML = text;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text = "The \\ is called backslash.";
+  document.getElementById("javastr7").innerHTML = text; 
+});
+document.getElementById("javastr8").innerHTML =
+"Hello Dolly!";
+document.getElementById("javastr9").innerHTML = "Hello " +
+"Dolly";
+document.addEventListener("DOMContentLoaded", function(){
+  let text =
+  `The quick
+  brown fox
+  jumps over
+  the lazy dog`
+
+  document.getElementById("javastr10").innerHTML = text;
+  
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // x is a string
+  let x = "John";
+
+  // y is an object
+  let y = new String("John");
+  document.getElementById("javastr11").innerHTML =
+  typeof x + "<br>" + typeof y;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text = 'BFKKPPEJFMSWHHDB';
+  document.getElementById("javastrm").innerHTML = text.length;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let text = "HELLOW WORLD";
+  document.getElementById("javastrm1").innerHTML = text.charAt(0);
+});
+document.addEventListener("DOMContentLoaded", function(){
+  let text = "HELLOW WORLD";
+  document.getElementById("javastrm2").innerHTML = text.charCodeAt(0);
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  const name = "W3Schools";
+  let letter = name.at(2);
+
+  document.getElementById("javastrm3").innerHTML = letter;
 })
+
+
+
 
 
