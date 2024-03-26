@@ -829,7 +829,25 @@ document.addEventListener("DOMContentLoaded", function(){
   let letter = name.at(2);
 
   document.getElementById("javastrm3").innerHTML = letter;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  const name = "W3Schools"
+  let letter = name[2];
+  document.getElementById("javastrm4").innerHTML = letter;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text = "Hello World";
+  document.getElementById("javastrm5").innerHTML = text[6]
+});
+document.addEventListener("DOMContentLoaded", function() {
+  let text = "Apple, Banana, Kiwi";
+  let part = text.slice(7, 13);
+  document.getElementById("javastrm6").innerHTML = part;
 })
+
+
 
 
 
