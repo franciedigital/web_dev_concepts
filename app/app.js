@@ -845,6 +845,14 @@ document.addEventListener("DOMContentLoaded", function() {
   let text = "Apple, Banana, Kiwi";
   let part = text.slice(7, 13);
   document.getElementById("javastrm6").innerHTML = part;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+
+
+
+  [;;/;ll
+]
 })
 
 
