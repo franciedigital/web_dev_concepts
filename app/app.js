@@ -849,10 +849,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function(){
 
-
-
-  [;;/;ll
-]
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7);
+document.getElementById("javastrm7").innerHTML = part;
 })
 
 
