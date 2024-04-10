@@ -852,6 +852,17 @@ document.addEventListener("DOMContentLoaded", function(){
 let text = "Apple, Banana, Kiwi";
 let part = text.slice(7);
 document.getElementById("javastrm7").innerHTML = part;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let text = "Apple, Banana, Kiwi";
+  let part = text.slice(-12);
+  document.getElementById("javastrm8").innerHTML = part;
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  let str = "Apple, Banana, Kiwi";
+  document.getElementById("javastrm9").innerHTML = str.substr(7);
 })
 
 
